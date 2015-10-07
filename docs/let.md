@@ -157,13 +157,13 @@ let不允许在相同作用域内，重复声明同一个变量。
 
 ```javascript
 // 报错
-function () {
+function a() {
   let a = 10;
   var a = 1;
 }
 
 // 报错
-function () {
+function a() {
   let a = 10;
   let a = 1;
 }
